@@ -1164,7 +1164,7 @@ p  { line-height: 1.75; color: var(--text-muted); }
   background: var(--gray-900);
   color: #E8F5EE;
   padding: 18px 24px;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: space-between;
   gap: 20px;
