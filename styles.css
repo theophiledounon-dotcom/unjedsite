@@ -231,6 +231,22 @@ h1, h2, h3, h4, h5 {
 
 .header-actions { display: flex; align-items: center; gap: 0.5rem; }
 
+/* ---------- Nav desktop "moyen" (laptops 941-1600px) : resserrer pour ne pas déborder ---------- */
+@media (min-width: 941px) and (max-width: 1600px) {
+  .header-inner { gap: 0.4rem; }
+  .brand { margin-right: 0.8rem; }
+  .main-nav { gap: 0; }
+  .main-nav a { padding: 0.5rem 0.55rem; font-size: 0.82rem; }
+  .header-actions { gap: 0.3rem; }
+}
+@media (min-width: 941px) and (max-width: 1240px) {
+  .brand-tagline { display: none; }
+  .brand { margin-right: 0.5rem; gap: 0.5rem; }
+  .brand img { width: 38px; height: 38px; }
+  .main-nav a { padding: 0.5rem 0.4rem; font-size: 0.76rem; }
+  .lang-btn { padding: 0 0.5rem; font-size: 0.78rem; }
+}
+
 .icon-btn {
   width: 40px;
   height: 40px;
